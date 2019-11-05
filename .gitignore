@@ -1,4 +1,8 @@
+# GitIgnore ohtu vko 1 -> hakemisto
 /viikko1/RiippuvuuksienInjektointi1/.nb-gradle/
 /viikko1/RiippuvuuksienInjektointi1/build/
 /viikko1/NhlStatistics1/.nb-gradle/
 /viikko1/NhlStatistics1/build/
+/viikko2/tehtavat1ja4/.gradle/
+/viikko2/tehtavat1ja4/build/
+/viikko2/tehtavat1ja4/.nb-gradle/
