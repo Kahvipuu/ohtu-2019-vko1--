@@ -11,8 +11,6 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'Main'
-
 jar { 
 	manifest {
 		attributes 'Main-Class': 'Main'
@@ -30,5 +28,7 @@ repositories {
 
 dependencies {
     testCompile 'junit:junit:4.12'
+	compile 'junit:junit:4.12'
 }
 
+mainClassName = 'Main'
