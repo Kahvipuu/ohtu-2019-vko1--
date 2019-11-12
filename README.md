@@ -1,5 +1,5 @@
-# ohtu-2019-vko1--
-Ohtu viikot 1 lopusta eteenpäin
+# ohtu-2019-vko1-5
+Ohtu viikot 1-5
 
 
 Viikon 1 alkupuoli, Ohtuvarastoon liittyvät. Löytyvät täältä: https://github.com/Kahvipuu/ohtu-2019-viikko1
