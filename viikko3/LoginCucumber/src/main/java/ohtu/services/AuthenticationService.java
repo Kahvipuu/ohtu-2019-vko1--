@@ -40,10 +40,10 @@ public class AuthenticationService {
     }
 
     private boolean invalid(String username, String password) {
-        /* validity check of username and password
+        /* validity check of username and password CUCUMBER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         käyttäjätunnuksen on oltava merkeistä a-z koostuva vähintään 3 merkin pituinen merkkijono, joka ei ole vielä käytössä
         salasanan on oltava pituudeltaan vähintään 8 merkkiä ja se ei saa koostua pelkästään kirjaimista
-        */
+        CUCUMBER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
         
         if (username.length() < 3 || password.length() < 8){
             return true;
