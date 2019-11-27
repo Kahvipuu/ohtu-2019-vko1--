@@ -8,3 +8,4 @@ Viikko 5 tagileikkiminen
 muutos 1
 muutos 2
 muutos 3
+Poistotestimuutos vko5, tehtävä 2
