@@ -6,3 +6,4 @@ Viikon 1 alkupuoli, Ohtuvarastoon liittyvät. Löytyvät täältä: https://gith
 
 Viikko 5 tagileikkiminen
 muutos 1
+muutos 2
