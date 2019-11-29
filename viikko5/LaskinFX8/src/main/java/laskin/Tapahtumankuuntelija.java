@@ -32,7 +32,7 @@ public class Tapahtumankuuntelija implements EventHandler {
             arvo = Integer.parseInt(syotekentta.getText());
         } catch (Exception e) {
         }
- 
+        
         if (event.getTarget() == plus) {
             sovellus.plus(arvo);
         } else if (event.getTarget() == miinus) {
