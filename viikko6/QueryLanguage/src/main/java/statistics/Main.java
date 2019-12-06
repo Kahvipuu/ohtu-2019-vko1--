@@ -3,19 +3,28 @@ package statistics;
 import statistics.matcher.*;
 
 public class Main {
+
     public static void main(String[] args) {
         // seuraavassa osoitteessa 27.11.2019 päivitetyt tilastot
-        String url = "https://nhl27112019.herokuapp.com/players.txt"
+        String url = "https://nhl27112019.herokuapp.com/players.txt";
         // ajan tasalla olevat tilastot osoitteessa
         // "https://nhlstatisticsforohtu.herokuapp.com/players.txt"
 
         Statistics stats = new Statistics(new PlayerReaderImpl(url));
-          
-        Matcher m = new And( new HasAtLeast(5, "goals"),
-                             new HasAtLeast(5, "assists"),
-                             new PlaysIn("PHI")
-        );
-        
+
+        QueryBuilder query = new QueryBuilder();
+        QueryBuilder query2 = new QueryBuilder();
+//        QueryBuilder query3 = new QueryBuilder(); //huoh.. jotain jää nyt ymmärtämättä.. siirtyy seuraavaan sprintiin
+
+        Matcher m1 = query.playsIn("PHI")
+                .hasAtLeast(10, "assists")
+                .hasFewerThan(8, "goals").build();
+
+        Matcher m2 = query2.playsIn("EDM")
+                .hasAtLeast(20, "points").build();
+
+        Matcher m = query2.oneOf(m1, m2).build();
+
         for (Player player : stats.matches(m)) {
             System.out.println(player);
         }
