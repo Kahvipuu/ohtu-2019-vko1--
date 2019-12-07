@@ -9,3 +9,6 @@ muutos 1
 muutos 2
 muutos 3
 Poistotestimuutos vko5, tehtävä 2
+
+Tämä myös pyydetyssä MERGE.md tiedostossa
+Viikko 7, merge tehtävä: https://github.com/Kahvipuu/OhtuMiniprojekti/pull/1
